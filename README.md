@@ -1,5 +1,14 @@
 # Image Fryer
+[![PyPI](https://img.shields.io/pypi/l/image-fryer.svg)](https://pypi.python.org/pypi/image-fryer/)
+[![PyPI](https://img.shields.io/pypi/v/image-fryer.svg)](https://pypi.python.org/pypi/image-fryer/)
+
 Image fryer made in Python. Thrown together by [Nahuel], special thanks to StackOverflow and [asdvek]!
+
+### Installment
+Installing `image-fryer` is as easy as running 
+```bash
+pip install image-fryer
+```
 
 ### Requierements
 - Python
