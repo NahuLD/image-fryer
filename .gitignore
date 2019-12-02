@@ -1,4 +1,6 @@
 .idea/
 venv/
+dist/
+image_fryer.egg-info/
 out.png
 test.jpg

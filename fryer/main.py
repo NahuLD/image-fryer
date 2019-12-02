@@ -1,6 +1,6 @@
 from PIL import Image
 
-import fryer
+from fryer import fryer
 
 '''
     Quick meme thrown together with the help of StackOverflow and some GitHub repos found online

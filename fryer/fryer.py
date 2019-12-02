@@ -5,7 +5,7 @@ import numpy
 from PIL import Image
 from numpy import random
 
-import helpers
+from fryer import helpers
 
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + './classifiers/haarcascade_eye.xml')
@@ -189,7 +189,7 @@ def bulge(img, f, r, a, h, ior):
                 k = (h+(math.sqrt(r**2-s**2)/a))/numpy.sin(phi)
 
                 # find intersection point
-                intersect = ray + helpers.normalise(f-ray)*k
+                intersect = ray + helpers.normalise(f - ray) * k
 
                 # assign pixel with ray's coordinates the colour of pixel at intersection
                 if 0 < intersect[0] < width-1 and 0 < intersect[1] < height-1:
